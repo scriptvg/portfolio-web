@@ -1,0 +1,17 @@
+export const tecnologias = [
+  { nombre: "React", icon: "FaReact", tipo: "frontend", color: "text-sky-500" },
+  { nombre: "Vite", icon: "SiVite", tipo: "frontend", color: "text-violet-500" },
+  { nombre: "TailwindCSS", icon: "SiTailwindcss", tipo: "frontend", color: "text-cyan-500" },
+  { nombre: "HTML5", icon: "FaHtml5", tipo: "frontend", color: "text-orange-500" },
+  { nombre: "CSS3", icon: "FaCss3Alt", tipo: "frontend", color: "text-blue-600" },
+  { nombre: "JavaScript", icon: "SiJavascript", tipo: "frontend", color: "text-yellow-400" },
+  { nombre: "TypeScript", icon: "SiTypescript", tipo: "frontend", color: "text-blue-400" },
+  { nombre: "Python", icon: "FaPython", tipo: "backend", color: "text-yellow-500" },
+  { nombre: "Django", icon: "SiDjango", tipo: "backend", color: "text-green-700" },
+  { nombre: "Node.js", icon: "FaNodeJs", tipo: "backend", color: "text-green-500" },
+  { nombre: "MySQL", icon: "SiMysql", tipo: "db", color: "text-cyan-700" },
+  { nombre: "SQL", icon: "FaDatabase", tipo: "db", color: "text-gray-500" },
+  { nombre: "Git", icon: "FaGitAlt", tipo: "devops", color: "text-orange-600" },
+  { nombre: "Linux", icon: "FaLinux", tipo: "devops", color: "text-black" },
+  { nombre: "OpenAI", icon: "SiOpenai", tipo: "otros", color: "text-green-500" },
+]; 
