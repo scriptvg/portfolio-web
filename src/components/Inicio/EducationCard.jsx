@@ -10,12 +10,12 @@ function EducationCard({ edu, onDiplomaClick }) {
   return (
     <div className="flex flex-col bg-white rounded-3xl shadow-xl p-8 border border-gray-200 hover:border-blue-400 transition-all duration-200 hover:shadow-2xl animate-fade-in relative overflow-hidden">
       {/* Badge tipo bootcamp */}
-      <span className={`absolute top-4 right-4 px-3 py-1 rounded-full text-xs font-bold border ${badgeColor} shadow-sm z-10 font-mono tracking-wide uppercase`}>{edu.titulo.split(" ")[2]}</span>
+      <span className={`absolute top-4 right-4 px-3 py-1 rounded-full text-xs font-bold border flex ${badgeColor} shadow-sm z-10 font-mono tracking-wide uppercase`}> <HiOutlineAcademicCap className="text-blue-500" />{edu.titulo.split(" ")[2]}</span>
       <div className="flex flex-col items-center mb-4">
         <div className="w-16 h-16 rounded-full bg-white border-2 border-blue-200 flex items-center justify-center shadow mb-2">
           <img src={edu.img} alt={edu.institucion} className="w-10 h-10 object-contain rounded" />
         </div>
-        <HiOutlineAcademicCap className="text-blue-500 text-2xl mb-1" />
+        
       </div>
       {/* Título mejorado */}
       <h3 className="text-2xl font-extrabold text-blue-900 font-serif text-center mb-2 tracking-tight drop-shadow-sm underline decoration-blue-300/60 decoration-2 underline-offset-4 leading-tight">
