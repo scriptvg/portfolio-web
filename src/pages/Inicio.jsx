@@ -21,6 +21,8 @@ import DiplomaModal from "@/components/Inicio/DiplomaModal";
 import TechStack from "@/components/Inicio/TechStack";
 import colorMap from "@/lib/colorMap";
 import { tecnologias } from "@/lib/tecnologias";
+import { WordRotate } from "@/components/magicui/word-rotate"
+
 
 function Inicio() {
   const navigate = useNavigate();
@@ -32,8 +34,10 @@ function Inicio() {
         <h1 className="text-5xl md:text-6xl font-extrabold text-center mt-12 mb-3 font-serif text-blue-900 drop-shadow-sm tracking-tight leading-tight">
           Allan José Vélez González
         </h1>
-        <h2 className="text-2xl md:text-3xl font-semibold text-blue-600 text-center mb-6 font-serif tracking-wide">
-          Desarrollador FullStack
+        <h2 className="text-2xl md:text-3xl font-semibold text-blue-600 text-center mb-6 font-serif tracking-wide flex items-center justify-center gap-4">
+          Desarrollador
+          <WordRotate words={['FullStack', 'FrontEnd', 'BackEnd']} />
+
         </h2>
         <Separator className="w-full mb-6 bg-blue-200" />
         <div className="text-center flex flex-col">

@@ -1,4 +1,5 @@
 import { Separator } from "@/components/ui/separator"
+import { WordRotate } from "@/components/magicui/word-rotate"
 
 function AcercaDeMi() {
   return (
@@ -7,8 +8,8 @@ function AcercaDeMi() {
         <h1 className="text-5xl md:text-6xl font-serif font-extrabold text-blue-900 text-center drop-shadow-sm mb-4">
           Allan José Vélez González
         </h1>
-        <h2 className="text-2xl md:text-3xl font-semibold text-blue-700 text-center mb-6 font-serif">
-          Desarrollador FullStack
+        <h2 className="text-2xl md:text-3xl font-semibold text-blue-700 text-center mb-6 font-serif flex items-center justify-center gap-4">
+          Desarrollador <WordRotate words={['FullStack', 'FrontEnd', 'BackEnd']} />
         </h2>
 
         <Separator className="w-full mb-4 bg-blue-200" />

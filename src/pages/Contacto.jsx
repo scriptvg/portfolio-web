@@ -53,7 +53,7 @@ export default function Contacto() {
   const isDisabled = loading || feedback.sent;
 
   return (
-    <section className="w-full min-h-screen px-2 sm:px-4 py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50 to-white animate-fade-in">
+    <section className="w-full min-h-screen px-2 sm:px-4 py-16 sm:py-20 ">
       <div className="max-w-xl mx-auto flex flex-col items-center">
         <h1 className="text-4xl md:text-5xl font-serif font-extrabold text-blue-900 text-center drop-shadow-sm mb-2">
           Contáctame
