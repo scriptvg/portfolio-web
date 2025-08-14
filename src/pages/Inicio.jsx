@@ -27,7 +27,7 @@ function Inicio() {
   const [modalImg, setModalImg] = useState(null);
 
   return (
-    <article className="flex flex-col items-center justify-center min-h-[60vh] px-4 bg-gradient-to-b from-white via-blue-50 to-white">
+    <article className="flex flex-col items-center justify-center min-h-[60vh] px-4 ">
       <header className="w-full flex flex-col items-center justify-center mb-12 animate-fade-in">
         <h1 className="text-5xl md:text-6xl font-extrabold text-center mt-12 mb-3 font-serif text-blue-900 drop-shadow-sm tracking-tight leading-tight">
           Allan José Vélez González

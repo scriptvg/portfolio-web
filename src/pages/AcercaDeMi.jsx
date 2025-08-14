@@ -2,7 +2,7 @@ import { Separator } from "@/components/ui/separator"
 
 function AcercaDeMi() {
   return (
-    <section className="w-full min-h-screen px-4 py-20 bg-gradient-to-b from-white via-blue-50 to-white animate-fade-in">
+    <section className="w-full min-h-screen px-4 py-20 ">
       <div className="max-w-4xl mx-auto flex flex-col items-center">
         <h1 className="text-5xl md:text-6xl font-serif font-extrabold text-blue-900 text-center drop-shadow-sm mb-4">
           Allan José Vélez González
